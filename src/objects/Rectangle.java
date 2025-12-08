@@ -1,13 +1,18 @@
 package objects;
 
 public class Rectangle { // class
-    double length;
-    double width;
+    private double length;
+    private double width;
     int sides = 4;
 
-    public Rectangle(double length, double width) { // constructor
+    public Rectangle() { // constructor
         setLength(0);
         setWidth(0);
+    }
+
+    public Rectangle(double length, double width){
+        setLength(length);
+        setWidth(width);
     }
 
     double calculatePerimeter(){ // method
