@@ -1,3 +1,5 @@
+package OOP;
+
 class Main{
     static class Car{ // class for creating an Object
         String model;

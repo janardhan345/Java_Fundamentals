@@ -14,3 +14,21 @@ OOP is a paradigm program that considers turns real world objects into code usin
   - Methods are classified into two types
     1. Void Method - doesn't return any data
     2. Non Void method - returns a data 
+
+# Encapsulation 
+ 
+### Encapsulation is a process of hiding and revealing part of data based on users need and organization's security , this can be achieved by the access modifiers such as private, public and static. 
+
+- If we don't declare the access modifier the default will be `protected`. which means can be accessible within a package.
+- `public` can be accessed anywhere 
+- `private` only accessed within the class 
+- Objects marked `static` can be accessed without an Object instance.
+
+# Inheritance 
+
+- Inheritance solves the problem of duplicate code.
+- All shared code in one place 
+- The base class is above the tree and variant child class inherits the base class. ( Ex. Car ->Mercedes, Toyota, VolksWagon), the subclass or child class inherits all the public properties & method of the base class
+- The inheritance is achieved using the keyword `extends`
+- the `super()` method calls the constructor of the base class.
+
