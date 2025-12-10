@@ -1,4 +1,4 @@
-# objects : 
+# objects : `Frontend Masters - Java Fundamental`
 
 1. we created a package called object and within that we created a class called rectangle 
 2. then created some global var such as length, width and sides.
