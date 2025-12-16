@@ -1,6 +1,6 @@
 package OOP;
 
-class Main2 {
+class AccessModifier_2 {
     static class Car{ // class for creating an Object
         public String model;
         public String color;

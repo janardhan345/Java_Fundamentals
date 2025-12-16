@@ -1,6 +1,6 @@
 package OOP;
 
-public class Main6 {
+public class Abstract_6 {
     static class Toyota extends Main5.Car {
         public Toyota(){
             super();
