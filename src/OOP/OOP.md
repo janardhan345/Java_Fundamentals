@@ -46,3 +46,34 @@ OOP is a paradigm program that considers turns real world objects into code usin
 ## Concrete methods
 - these are methods with code implementation 
 - here subclasses do not need to implement 
+
+# Interface :
+
+Interface is used to give properties selectively to a class, unlike inheritance which provides the property to all sub classes.
+### Limitations of Inheritance
+
+- with inheritance all members are inherited 
+- you cannot selectively inherit members
+
+## To create an interface we use the keyword `implements`
+
+```java
+interface ElectricCar {
+}
+
+class Tesla implements ElectricCar{
+    
+}
+```
+### Interface properties 
+
+- interface properties must be written in `upper_SNAKE_CASE`
+- the value is immediately assigned and can't be changed
+- properties are public static final behind the scenes/by default
+
+### Interface Methods 
+
+- the methods are `abstract` by default without code implementation 
+- but interfaces can use concrete methods that have code implementation
+- All `abstract` methods must be implemented in the subclass
+
