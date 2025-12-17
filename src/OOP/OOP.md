@@ -72,8 +72,38 @@ class Tesla implements ElectricCar{
 - properties are public static final behind the scenes/by default
 
 ### Interface Methods 
-
+in OOP Package 
 - the methods are `abstract` by default without code implementation 
 - but interfaces can use concrete methods that have code implementation
 - All `abstract` methods must be implemented in the subclass
+
+# Polymorphism 
+
+- Polymorphism is a concept in OOP that allows object to exist in Multiple forms 
+- For example each car have their own driving experience 
+- so using polymorphism we can create various methods of driving
+- To achieve we have to `override` the default method in the base class using `@Override`
+
+## Example Code 
+##  Override 
+Car.java
+```java
+abstract class Car{
+    abstract void drive();
+}
+```
+Toyota.java
+```java
+class Toyota extends Car{
+    @Override
+  void drive(){
+      // specific driving exp of Toyota
+  }
+}
+```
+## Another method is `Overloading`
+
+- We have already seen this in Java Fundamentals 
+- Over loading is where we declare same name but with different parameters 
+- with this we can use both constructors by giving different input (parameters)
 
